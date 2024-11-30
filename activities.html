@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html><head>
+  <title>E-PORTFOLIO 2ND QUARTER</title>
+  <style type="text/css">
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      color: white;
+      font-size: 50px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background: linear-gradient(45deg, #d2001a, #6495ED);
+      background-size: 300% 300%;
+      background-attachment: fixed;
+      animation: color 12s ease-in-out infinite;
+      margin: 0;
+      height: 100%;
+    }
+
+    @keyframes color {
+      0% {
+        background-position: 0 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0 50%;
+      }
+    }
+
+    .container {
+      min-height: 100vh;
+      width: 100%;
+      position: relative;
+    }
+
+    .head {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: xx-large;
+      margin: 20px 0;
+    }
+
+    .title {
+      width: 30%;
+      height: auto;
+      text-align: center;
+    }
+
+    .media {
+      width: 90%;
+      height: auto;
+      text-align: center;
+      align-items: center;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .back {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      width: 200px;
+      height: auto;
+      z-index: 1000;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transform: scale(1);
+      display: block;
+      margin: 0 auto;
+      border-radius: 20px;
+    }
+
+    a:hover .back {
+      transform: scale(1.1);
+      box-shadow: 0 8px 15px rgba(50, 0, 187, 0.3);
+    }
+
+    table {
+      margin: 20px auto;
+      width: 80%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    table, th, td {
+      border: 1px solid white;
+      padding: 10px;
+    }
+
+    th, td {
+      vertical-align: top;
+    }
+
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="head">
+      <img src="acti.png" class="title" alt="E-Portfolio Logo"> <br>
+    </p>
+
+    <a href="index.html">
+      <img src="HP.png" class="back" alt="Back Button">
+    </a>
+
+    <table>
+      <tbody><tr>
+        <th>MEDIA</th>
+        <th>DESCRIPTION</th>
+      </tr>
+      <tr>
+        <td><img src="intrams.jpg" class="media" alt="Intramurals Image"></td>
+        <td>The Intramurals 2024, this was the parade to showcase our pride for our team colors.</td>
+      </tr>
+      <tr>
+        <td><video controls="" src="hisfig.mp4" class="media" alt="Historical Figures Video"></video></td>
+        <td>An activity for AP Month highlighting historical figures and their contributions to society. This video showed support to our representative <i> Dewi Nuqui. </i></td>
+      </tr>
+      <tr>
+        <td><img src="bookla.jpg" class="media" alt="Booklandia Image"></td>
+        <td>These are the representatives for <i>Booklandia 2024.</i> Arkin and Chanel. Booklandia was an activity to showcase the great land of books and fiction. I forgot which characters they are, but I was told they were "vampires." They are anime vampires. We are very proud of their hard work!</td>
+      </tr>
+      <tr>
+        <td><img src="teachday.jpg" class="media" alt="Teacher's Day"> <video controls="" src="videoteacj.mp4" alt="Arkin's Performance"> </video> </td>
+        <td>This is an image and a video of our teacher's day. Before the event, we held an activity called "Mini-Teachers" which is us students replicating teachers. After that, we had our event, and this video, Arkin (yes, from the picture above) had his fun performance.</td>
+      </tr>
+      <tr>
+        <td><img src="VPOP.jpg" class="media" alt="VPOP Practice Boys Bit"> <video controls="" src="VPOP.mp4" alt="VPOP Practice IHEARTLPSCI"></video>Family's Minus-one<audio controls=""><source src="minusone.mp3"></audio></td>
+        <td>This is the practice for the upcoming VPOP on December 16. <br> <br> The video is practice in front of the I heart LPSCI sign. <br> <br> The Audio is the failed 'minus one' that we were planning to use and was discontinued.</td>
+      </tr>
+    </tbody></table>
+  </div>
+
+
+</body></html>

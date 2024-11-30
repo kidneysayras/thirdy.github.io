@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html><head>
+<style type="text/css">
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+      color: white;
+      font-size: 40px; 
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+a:hover .acti {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(50, 0, 187, 0.3); 
+      background-attachment: fixed;
+}
+.title {
+width: 770px ;
+height: 350px;
+text-align: center;
+}
+.title2 {
+width: 30% ;
+height: auto;
+text-align: center;
+}
+.head {
+text-align: center;    
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+outline: 1px;
+font-size: xx-large;
+}
+
+.acti {
+width: 20% ;
+height: auto;
+text-align: center;
+align-items: center;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+transform: scale(1);
+display: block;
+margin: 0 auto;
+border-radius: 20px;
+}
+
+.container{
+    height:100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #d2001a,#6495ED);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+      background-attachment: fixed;
+
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    10%{
+        background-position: 0 50%;
+    }
+}
+</style><title>E-PORTFOLIO 2ND QUARTER</title></head>
+<body>
+    <div class="container">
+    <p> </p>
+    <p class="head"> <img src="NAME.png" class="title2">
+    <img src="title.png" class="title"> <br> </p>
+    <div align="center">
+       <a href="activities.html" target="_self">
+          <img src="acti.png" class="acti">
+     </a> <br>
+      <a href="samples.html" target="_self">
+         <img src="EXA.png" class="acti">
+      </a> <br>
+          <a href="ref.html">
+         <img src="REF.png" class="acti">
+      </a>
+    </div>
+</div>
+
+</body></html>
