@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Web Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0; 
+            padding: 20px; 
+        }
+        h1 {
+            font-size: 2.5em; 
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+            color: #333; 
+            margin: 10px 0; 
+            padding: 10px; 
+            border: 1px solid #ccc; 
+            border-radius: 8px; 
+            background-color: #fff; 
+        }
+        ul {
+            list-style-type: disc; 
+            padding-left: 20px; 
+        }
+        .container {
+            width: 80%; 
+            margin: 0 auto; 
+        }
+        .float-left {
+            float: left; 
+            width: 48%; 
+            margin-right: 2%; 
+            background-color: #e0f7fa; 
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        }
+        .float-right {
+            float: right; 
+            width: 48%; 
+            background-color: #ffe0b2; 
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        }
+        .clearfix::after {
+            content: ""; 
+            display: table; 
+            clear: both; 
+        }
+        .decorative::before {
+            content: "🔥 "; 
+            font-size: 1.5em; 
+        }
+        .offset-box {
+            position: relative; 
+            margin-top: 20px; 
+            offset: 50px 50px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Advanced CSS and HTML Example</h1>
+    <div class="container clearfix">
+        <div class="float-left">
+            <h2 class="decorative">Left Box</h2> 
+            <p>This box demonstrates the use of the float property alongside typography.</p>
+            <ul>
+                <li>Float left example</li>
+                <li>Can contain bullet points</li>
+                <li>Clear and organize content</li>
+            </ul>
+        </div>
+        <div class="float-right">
+            <h2 class="decorative">Right Box</h2>
+            <p>This box showcases another float usage in design.</p>
+            <ul>
+                <li>Float right example</li>
+                <li>Additional bullet points</li>
+                <li>Demonstrating layout flexibility</li>
+            </ul>
+        </div>
+    </div>
+    <div class="offset-box">
+        <p>Below is an example of using offset property for animation purposes (placeholder only).</p>
+    </div>
+</body>
+</html>
